@@ -3,8 +3,8 @@ import Typewriter from "typewriter-effect";
 
 export default function TypeIntro() {
   return (
-    <section>
-      <span>Hello</span>
+    <section className="intro_text">
+      <div>Hello</div>
       <div>
         <Typewriter
           options={{
